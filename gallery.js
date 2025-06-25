@@ -2,7 +2,7 @@ let allRecords = [];
 
 async function fetchSubmissions() {
   try {
-    const response = await axios.get('https://waffles-ten.vercel.app/api/airtable');
+    const response = await axios.get('https://waffles.hackclub.com/api/airtable');
     allRecords = response.data.records;
     renderCards(allRecords);
   } catch (error) {
