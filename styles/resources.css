@@ -34,10 +34,10 @@
 
 .resource-card {
     padding: 2.5rem;
-    background: white;
-    border: 3px solid #8B4513;
+    background: #2d1b4e;
+    border: 3px solid #ff6b00;
     text-decoration: none;
-    color: #8B4513;
+    color: #ff6b00;
     transition: all 0.3s ease;
     display: flex;
     flex-direction: row;
@@ -48,7 +48,7 @@
 
 .resource-card:hover {
     transform: translate(-4px, -4px);
-    box-shadow: 6px 6px 0px #8B4513;
+    box-shadow: 6px 6px 0px #ff6b00;
 }
 
 .resource-card i {
@@ -65,13 +65,13 @@
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: #8B4513;
+    color: #ff6b00;
 }
 
 .resource-desc {
     font-size: 1rem;
     line-height: 1.6;
-    color: #D2691E;
+    color: #ffaa55;
 }
 
 @media (max-width: 768px) {

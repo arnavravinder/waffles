@@ -51,6 +51,14 @@ function initAnimations() {
         ease: 'power2.out'
     });
 
+    gsap.to('.halloween-info', {
+        opacity: 1,
+        y: 0,
+        delay: 1.2,
+        duration: 0.6,
+        ease: 'power2.out'
+    });
+
     gsap.to('.hero-buttons', {
         opacity: 1,
         y: 0,
